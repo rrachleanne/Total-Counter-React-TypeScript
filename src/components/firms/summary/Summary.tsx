@@ -3,6 +3,7 @@ import FirmCount from "./FirmCount";
 import UserCount from "./UserCount";
 import AvgUserCount from './AvgUsers'
 import FirmEnabled from './FirmEnabled'
+import CombindCount from './CombindCounters'
 
 export default function Summary(): any {
   return (
@@ -16,6 +17,8 @@ export default function Summary(): any {
       <AvgUserCount />
       <h4>Enabled Accounts</h4>
       <FirmEnabled />
+      <h4>Combind Accounts</h4>
+      <CombindCount />
     </div>
   );
 }
